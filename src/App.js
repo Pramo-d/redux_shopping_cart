@@ -24,7 +24,9 @@ function App() {
       isRefresh=false;
       return;
     }
+    if(cart.change){
     dispatch(fetchApiData(cart))
+    }
   }, [cart, dispatch]);
 
   return (
