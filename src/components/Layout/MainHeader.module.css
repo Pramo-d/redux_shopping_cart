@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #252424;
+  background-color: rgb(184, 71, 139);
 }
 
 .header h1 {
